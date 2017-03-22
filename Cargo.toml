@@ -38,9 +38,13 @@ optional = true
 version = "^0.2.2"
 optional = true
 
+[dependencies]
+rust-libcore = "*"
+
 #[dev-dependencies.bytes]
 #git = "https://github.com/carllerche/bytes"
 #rev = "a7d38e29"
 
 [badges]
 travis-ci = { repository = "Geal/nom" }
+
